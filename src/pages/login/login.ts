@@ -68,7 +68,6 @@ export class LoginPage {
       }).then(data => {
         /* atualizar usuario corrente */
         this.singInComands();
-        console.log(this.userProv.currentUser);
       }).catch(error =>{
         this.alert.showAlert('Error!', error.message);
       });

@@ -12,7 +12,7 @@ export class HomePage {
 
   constructor(public navCtrl: NavController,
   public userProv: UserProvider) {
-    console.log(userProv.currentUser)
+    console.log('home');
   }
 
 }
